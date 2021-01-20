@@ -9,12 +9,7 @@ namespace CustomerTracking
     {
         static void Main(string[] args)
         {
-            List<Customer> customers = new List<Customer>()
-            {
-                //new Customer("21427586892", "Ege DENİZ", DateTime.Now),
-                //new Customer("21486744868", "Ali Veli", new DateTime(2005, 5, 1, 10, 28, 52)),
-                //new Customer("48484684848", "Murat Kaya", new DateTime(2001, 11, 14, 8, 30, 52))
-            };
+            List<Customer> customers = new List<Customer>();
 
             CustomerManager customerManager = new CustomerManager(customers);
 
