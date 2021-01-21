@@ -7,7 +7,7 @@ namespace CustomerTracking
 {
     class CustomerManager
     {
-        private List<Customer> _customers = new List<Customer>();
+        private List<Customer> _customers;
         public CustomerManager(List<Customer> customers)
         {
             _customers = customers;
